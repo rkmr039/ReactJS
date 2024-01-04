@@ -1,0 +1,17 @@
+{
+  "name": "jsvsreactclock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rishab Kumar <rkmr039@gmail.com> (https://github.com/rkmr039)",
+  "license": "ISC",
+  "dependencies": {
+    "express.js": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="react.js"></script>
+    <script src="react-dom.js"></script>
+    <script src="babel.js"></script>
+  </head>
+  <body>
+    <div id="index"></div>
+    <script type="text/babel">
+      //   const div = document.createElement("div");
+      //   const index = document.getElementById("index");
+      //   console.dir(div);
+      //   div.textContent = Date().toString();
+      //   div.className = "conatiner";
+      //window.index.appendChild(div);
+
+      //   const element = React.createElement("div", {
+      //     className: "conatiner",
+      //     children: ["Current Time :: ", Date().toString()],
+      //   });
+
+      //   const element = React.createElement(
+      //     "div",
+      //     {
+      //       className: "conatiner",
+      //     },
+      //     "Current Time :: ",
+      //     Date().toString()
+      //   );
+
+      const element = (
+        <div>
+          Current Time
+          <br />
+          {Date().toString()}
+        </div>
+      );
+
+      ReactDOM.render(element, index);
+      //   console.log(element);
+      //   index.appendChild(div);
+    </script>
+  </body>
+</html>
