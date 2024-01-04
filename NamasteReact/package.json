@@ -1,0 +1,27 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "This is Namaste React course by Akshay Saini",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkmr039/ReactJS.git"
+  },
+  "keywords": [],
+  "author": "Rishab Kumar <rkmr039@gmail.com> (https://github.com/rkmr039)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkmr039/ReactJS/issues"
+  },
+  "homepage": "https://github.com/rkmr039/ReactJS#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
